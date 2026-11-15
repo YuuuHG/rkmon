@@ -1,0 +1,12 @@
+{
+  "listen": "127.0.0.1:8094",
+  "user": "admin",
+  "pass_hash": "由 rkmon --init 自动生成，请勿手工填写弱口令",
+  "salt": "由 rkmon --init 自动生成",
+  "interval_ms": 1000,
+  "history_len": 180,
+  "disk_paths": ["/media", "/mnt/data", "/mnt", "/"],
+  "net_exclude": ["lo", "veth", "docker", "br-", "virbr", "tun", "tap", "wg", "tailscale", "zt", "flannel", "cni", "sit", "gre", "dummy", "ifb", "bond"],
+  "hidden_widgets": ["venc", "vdec", "npu", "rga", "gpu", "faces", "video", "assets", "queue", "jfplay", "playback"],
+  "probes": []
+}
