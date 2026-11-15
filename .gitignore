@@ -1,0 +1,16 @@
+# 本地构建产物
+/dist/
+/rkmon
+/rkmon-*
+!/rkmon.service
+
+# 本机配置与凭据（禁止入库）
+/config.json
+*.token
+*.local
+.env
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+*.swp
